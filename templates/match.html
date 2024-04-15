@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partida de {{ username }}</title>
+</head>
+<body>
+    <h3>Jugadores:</h3>
+    <ul id="player-list"></ul>
+    <form action="/word" method="post">
+        <input placeholder="Palabra para adivinar" type="text" name="word" id="word-input">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

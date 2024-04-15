@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unirse o Crear partida</title>
+</head>
+<body>
+
+    <form id="create-match">
+        <h2>Crear partida</h2>
+        <label for="username-to-create">Nombre de usuario:</label>
+        <input minlength="4" required id="username-to-create" placeholder="Nombre de usuario" type="text">
+        <input type="submit" value="Crear">
+    </form>
+
+    <form id="join-match">
+        <h2>Unirse a una partida</h2>
+        <label for="username-to-join">Nombre de usuario:</label>
+        <input minlength="4" required id="username-to-join" placeholder="Nombre de usuario" type="text">
+        <br>
+        <label for="match-code">Nombre del dueño de la partida:</label>
+        <input minlength="4" required id="match-owner" placeholder="Nombre del dueño de la partida" type="text">
+
+        <input type="submit" value="Unirse">
+    </form>
+
+    <script src="static/index.js"></script>
+</body>
+</html>
